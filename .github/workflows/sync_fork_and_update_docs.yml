@@ -2,7 +2,7 @@ name: Sync Fork and Update Docs
 
 on:
   schedule:
-    - cron: '0 * * * *' # This runs the action every hour
+    - cron: '0 0 * * *' # This runs the action every hour
 
 jobs:
   sync_fork_and_update_docs:
