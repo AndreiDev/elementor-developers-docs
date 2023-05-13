@@ -24,7 +24,7 @@ jobs:
       run: |
         git remote add upstream https://github.com/elementor/elementor-developers-docs.git
         git fetch upstream
-        git merge upstream/main
+        git merge upstream/master
         git config user.email "bot@codebridge.ai"
         git config user.name "CodeBridgeAI Bot"
         git push origin HEAD:sync_and_update_branch
